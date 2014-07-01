@@ -1,0 +1,60 @@
+.outershell{
+	background-color: darkgray;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+}
+.innershell{
+	background-color: black;
+	position: absolute;
+	height: 90%;
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top: 2%;
+}
+.am-pm-auto-labels{
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	padding-left: 20px;
+	text-align: right;
+}
+	#auto{
+		padding-top: 65px;
+	}
+
+.clockscreen {
+	display: inline-block;
+	background-color: darkred;
+	width:70%;
+	height:50%;
+	margin-left:20px; 
+	margin-top:55px;
+}
+.am-pm-indicator{
+	background-color: red;
+	width: 10px;
+	height:10px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 115px;
+	margin-left: 5px;
+}
+.clock-text{
+	display: inline-block;
+	color: red;
+	font-size: 100px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+/* combine these two into one class*/
+.bottom-station{
+	color: white;
+	padding-top: 10px;
+	margin-left: 25%;
+}
+/*combine these two into one class*/
